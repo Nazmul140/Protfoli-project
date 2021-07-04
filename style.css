@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
@@ -19,6 +22,7 @@ h1{
 .helf-width{
     width: 50%;
     padding-left: 2%;
+    
 }
 .helf-width img{
     width: 80%;
@@ -31,4 +35,37 @@ h1{
     color: white;
     font-weight: bold;
     
+}
+.banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.exp-are{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiences{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 40px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    
+}
+#stdd{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+}
+#std{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan, blue);
+    border-image-slice: 1;
+}
+p{
+    text-align: center;
 }
